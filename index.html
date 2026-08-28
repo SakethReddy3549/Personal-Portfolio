@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Saketh Reddy Manda — Software Engineer</title>
+<title>Saketh Reddy Manda | Software Engineer</title>
 <meta name="description" content="Software Engineer in Atlanta. Backend services in Java, Spring Boot and FastAPI; applied and on-device machine learning. Research Assistant at Georgia State University.">
 <meta name="author" content="Saketh Reddy Manda">
 <meta name="theme-color" content="#050506">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Saketh Reddy Manda — Software Engineer">
+<meta property="og:title" content="Saketh Reddy Manda | Software Engineer">
 <meta property="og:description" content="Backend services in Java, Spring Boot and FastAPI; applied and on-device machine learning.">
 <meta name="twitter:card" content="summary">
 
@@ -40,7 +40,7 @@
 
 <!-- ============================================================ NAV -->
 <header class="nav" id="nav">
-  <a class="nav__brand" href="#top" aria-label="Saketh Reddy Manda — home">
+  <a class="nav__brand" href="#top" aria-label="Saketh Reddy Manda, home">
     <span class="mark" aria-hidden="true">SM</span>
     <span class="nav__name">Saketh Reddy Manda</span>
   </a>
@@ -93,11 +93,11 @@
 
     <div class="wrap">
       <div class="hero__body">
-        <p class="eyebrow" data-reveal>Software Engineer — Atlanta, GA</p>
+        <p class="eyebrow" data-reveal>Software Engineer, Atlanta GA</p>
 
         <h1 class="h-display" data-reveal style="--delay:80ms">
-          <span class="line">Backend that holds.</span>
-          <span class="line muted">ML that runs on-device.</span>
+          <span class="line">Backend systems</span>
+          <span class="line muted">and on-device machine learning.</span>
         </h1>
 
         <p class="lede" data-reveal style="--delay:160ms">
@@ -109,9 +109,9 @@
         <div class="hero__meta" data-reveal style="--delay:240ms">
           <span class="dot" aria-hidden="true"></span>
           <span>Atlanta, GA</span>
-          <span class="sep" aria-hidden="true">—</span>
+          <span class="sep" aria-hidden="true">&middot;</span>
           <span>MS Computer Science, Georgia State &middot; 2027</span>
-          <span class="sep" aria-hidden="true">—</span>
+          <span class="sep" aria-hidden="true">&middot;</span>
           <span>3+ years experience</span>
         </div>
 
@@ -171,7 +171,7 @@
         </div>
         <div class="metric">
           <p class="metric__val"><em>~</em>60%</p>
-          <p class="metric__key">Deployment time removed by replatforming onto AWS</p>
+          <p class="metric__key">Deployment time cut by replatforming onto AWS</p>
         </div>
       </div>
     </div>
@@ -182,8 +182,8 @@
     <div class="wrap">
       <div class="section__head">
         <div>
-          <p class="eyebrow" data-reveal>01 — Selected work</p>
-          <h2 class="h-section" data-reveal style="--delay:60ms">Systems I designed and shipped</h2>
+          <p class="eyebrow" data-reveal>01 / Work</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Selected projects</h2>
         </div>
         <div class="rail-head" data-reveal style="--delay:120ms">
           <button class="rail-btn" type="button" id="railPrev" aria-label="Scroll work backward">
@@ -204,7 +204,7 @@
           <span class="card__tag">Research</span>
           <span class="card__num" aria-hidden="true">01</span>
           <h3 class="card__title"><button class="card__link" type="button">Course Assistant Agent</button></h3>
-          <p class="card__desc">An EdTech teaching-assistant chatbot with a LangGraph state machine behind it — structured-output routing, checkpointed sessions students can resume.</p>
+          <p class="card__desc">EdTech teaching-assistant chatbot backed by a LangGraph state machine, with structured-output routing and checkpointed sessions students can resume.</p>
           <ul class="chips">
             <li class="chip">FastAPI</li><li class="chip">LangGraph</li><li class="chip">React</li><li class="chip">WebSockets</li>
           </ul>
@@ -213,9 +213,9 @@
           </span>
           <template data-detail>
             <div class="detail__meta">
-              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 – Present</span>
             </div>
-            <p class="detail__lede">A teaching assistant students talk to during a course. The hard part was not the model — it was making multi-turn sessions survive disconnects and keeping the agent's routing decisions predictable enough to debug.</p>
+            <p class="detail__lede">A teaching assistant students talk to during a course. Most of the work went into making multi-turn sessions survive disconnects, and into keeping the agent's routing decisions typed and predictable enough to debug.</p>
             <div data-detail-body>
               <p class="detail__label">What I built</p>
               <ul class="detail__list">
@@ -247,14 +247,14 @@
           </span>
           <template data-detail>
             <div class="detail__meta">
-              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 – Present</span>
             </div>
-            <p class="detail__lede">Stroke rehabilitation depends on repetition, and repetition depends on feedback that arrives instantly. This app reads the patient's hand from the iPad camera and answers with sound in the same frame.</p>
+            <p class="detail__lede">Rehabilitation exercises only work if feedback arrives fast enough for the patient to correct mid-movement. The app reads the patient's hand from the iPad camera and responds with audio in the same frame.</p>
             <div data-detail-body>
               <p class="detail__label">What I built</p>
               <ul class="detail__list">
                 <li>Real-time <strong>hand-pose tracking across 21 landmarks</strong>, driven by <strong>Apple Vision</strong> and <strong>AVFoundation</strong> on the device camera pipeline.</li>
-                <li>A <strong>confidence-gated TensorFlow Lite classifier</strong> — poses below threshold are withheld rather than guessed, so the patient never gets rewarded for a wrong movement.</li>
+                <li>A <strong>confidence-gated TensorFlow Lite classifier</strong> that withholds poses below threshold instead of guessing, so a wrong movement never triggers a reward.</li>
                 <li><strong>55+ MIDI-driven exercises</strong> wired through <strong>AudioKit</strong>, mapping recognised gestures to immediate audio response.</li>
                 <li>A <strong>SwiftUI</strong> interface designed for clinical use rather than demo use.</li>
               </ul>
@@ -272,7 +272,7 @@
           <span class="card__tag">Research</span>
           <span class="card__num" aria-hidden="true">03</span>
           <h3 class="card__title"><button class="card__link" type="button">Wearable Hub</button></h3>
-          <p class="card__desc">Android app for wearable IMU sensing that runs entirely on-device — including MobileBERT semantic search on a 4GB CPU-only phone. No cloud, anywhere.</p>
+          <p class="card__desc">Android app for wearable IMU sensing that runs entirely on-device, including MobileBERT semantic search on a 4GB CPU-only phone. No cloud dependency.</p>
           <ul class="chips">
             <li class="chip">Kotlin</li><li class="chip">Compose</li><li class="chip">MobileBERT</li><li class="chip">On-device</li>
           </ul>
@@ -281,14 +281,14 @@
           </span>
           <template data-detail>
             <div class="detail__meta">
-              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 – Present</span>
             </div>
-            <p class="detail__lede">Sensor data from a body-worn device is about as private as data gets. The constraint driving this build was simple: nothing leaves the phone — which meant the model had to fit and run on a 4GB CPU-only device.</p>
+            <p class="detail__lede">The requirement was that no sensor data leaves the phone. That set the budget for everything else: the model had to fit and stay responsive on a 4GB CPU-only device.</p>
             <div data-detail-body>
               <p class="detail__label">What I built</p>
               <ul class="detail__list">
                 <li>An <strong>on-device Android app</strong> in <strong>Kotlin and Jetpack Compose</strong> for wearable IMU sensing, with <strong>no cloud dependency</strong> in the data path.</li>
-                <li><strong>MobileBERT (TFLite)</strong> semantic search running inside a <strong>4GB CPU-only</strong> budget — quantised inference tuned to stay responsive without a GPU.</li>
+                <li><strong>MobileBERT (TFLite)</strong> semantic search running inside a <strong>4GB CPU-only</strong> budget, with quantised inference tuned to stay responsive without a GPU.</li>
                 <li>Local capture, storage and query of sensor streams, so the device stays useful with no network at all.</li>
               </ul>
               <p class="detail__label">Stack</p>
@@ -314,13 +314,13 @@
           </span>
           <template data-detail>
             <div class="detail__meta">
-              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 – Present</span>
             </div>
-            <p class="detail__lede">Letting a language model describe a workflow is easy. Letting it <em>run</em> one safely is the actual problem — so every plan the model produces is validated against a schema before anything executes.</p>
+            <p class="detail__lede">The pipeline turns a natural-language request into a workflow plan. Every plan is validated against a schema before a single step executes, so an unexpected output fails closed instead of touching live systems.</p>
             <div data-detail-body>
               <p class="detail__label">What I built</p>
               <ul class="detail__list">
-                <li>A <strong>three-layer semantic search pipeline</strong> — ranking, intent matching and cosine-similarity retrieval — over <strong>JSON-LD sensor metadata</strong>.</li>
+                <li>A <strong>three-layer semantic search pipeline</strong> (ranking, intent matching, cosine-similarity retrieval) over <strong>JSON-LD sensor metadata</strong>.</li>
                 <li>A <strong>schema-validated natural-language plan executor</strong>: generated plans must satisfy a strict contract before any step is allowed to run.</li>
                 <li><strong>Sandboxed workflow automation</strong>, so an invalid or unexpected plan fails closed instead of touching live systems.</li>
               </ul>
@@ -338,7 +338,7 @@
           <span class="card__tag">Industry</span>
           <span class="card__num" aria-hidden="true">05</span>
           <h3 class="card__title"><button class="card__link" type="button">Apigee X Gateway Migration</button></h3>
-          <p class="card__desc">Moved 50+ production APIs from Apigee to Apigee X across European insurance operations — with zero service disruption.</p>
+          <p class="card__desc">Moved 50+ production APIs from Apigee to Apigee X across European insurance operations, with zero service disruption.</p>
           <ul class="chips">
             <li class="chip">Apigee X</li><li class="chip">CI/CD</li><li class="chip">Java</li><li class="chip">Spring Boot</li>
           </ul>
@@ -347,9 +347,9 @@
           </span>
           <template data-detail>
             <div class="detail__meta">
-              <span>Cognizant Technology Solutions</span><span>Software Engineer</span><span>2021 — 2024</span>
+              <span>Cognizant Technology Solutions</span><span>Software Engineer</span><span>2021 – 2024</span>
             </div>
-            <p class="detail__lede">A gateway migration nobody is supposed to notice. High-volume European insurance traffic, PII in every payload, and no acceptable window for downtime.</p>
+            <p class="detail__lede">High-volume European insurance traffic, PII in every payload, and no acceptable window for downtime. The migration had to stay invisible to every downstream consumer.</p>
             <div data-detail-body>
               <p class="detail__label">What I did</p>
               <ul class="detail__list">
@@ -372,7 +372,7 @@
           <span class="card__tag">Industry</span>
           <span class="card__num" aria-hidden="true">06</span>
           <h3 class="card__title"><button class="card__link" type="button">Legacy Modules to AWS</button></h3>
-          <p class="card__desc">Replatformed legacy insurance modules onto Lambda, S3 and DynamoDB — cutting deployment time ~60% and deleting the manual release steps entirely.</p>
+          <p class="card__desc">Replatformed legacy insurance modules onto Lambda, S3 and DynamoDB, cutting deployment time by ~60% and removing the manual release steps.</p>
           <ul class="chips">
             <li class="chip">AWS Lambda</li><li class="chip">DynamoDB</li><li class="chip">S3</li><li class="chip">Kafka</li>
           </ul>
@@ -381,9 +381,9 @@
           </span>
           <template data-detail>
             <div class="detail__meta">
-              <span>Cognizant Technology Solutions</span><span>Software Engineer</span><span>2021 — 2024</span>
+              <span>Cognizant Technology Solutions</span><span>Software Engineer</span><span>2021 – 2024</span>
             </div>
-            <p class="detail__lede">Legacy insurance modules with a release process that ran on human attention. The rewrite target was not just "on AWS" — it was "deployable without anyone remembering a checklist".</p>
+            <p class="detail__lede">Legacy insurance modules whose release process depended on someone remembering a checklist. Moving them onto AWS was half the job; making deployment repeatable without manual steps was the rest.</p>
             <div data-detail-body>
               <p class="detail__label">What I did</p>
               <ul class="detail__list">
@@ -405,7 +405,7 @@
     </div>
 
     <div class="wrap">
-      <p class="rail-hint" data-reveal>Drag, scroll or use the arrows — select any card for detail</p>
+      <p class="rail-hint" data-reveal>Drag, scroll or use the arrows. Select any card for detail.</p>
     </div>
   </section>
 
@@ -414,15 +414,15 @@
     <div class="wrap">
       <div class="section__head">
         <div>
-          <p class="eyebrow" data-reveal>02 — Experience</p>
-          <h2 class="h-section" data-reveal style="--delay:60ms">Where the work happened</h2>
+          <p class="eyebrow" data-reveal>02 / Experience</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Where I have worked</h2>
         </div>
       </div>
 
       <ol class="xp">
         <li class="xp__item" data-reveal>
           <div class="xp__aside">
-            <span class="xp__when">Aug 2025 — Present</span>
+            <span class="xp__when">Aug 2025 – Present</span>
             <span class="xp__where">Atlanta, GA</span>
           </div>
           <div>
@@ -439,7 +439,7 @@
 
         <li class="xp__item" data-reveal>
           <div class="xp__aside">
-            <span class="xp__when">Sep 2021 — Apr 2024</span>
+            <span class="xp__when">Sep 2021 – Apr 2024</span>
             <span class="xp__where">Software Engineer</span>
           </div>
           <div>
@@ -464,8 +464,8 @@
     <div class="wrap">
       <div class="section__head">
         <div>
-          <p class="eyebrow" data-reveal>03 — Stack</p>
-          <h2 class="h-section" data-reveal style="--delay:60ms">Tools I reach for</h2>
+          <p class="eyebrow" data-reveal>03 / Stack</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Tools and technologies</h2>
         </div>
       </div>
 
@@ -528,21 +528,21 @@
     <div class="wrap">
       <div class="section__head">
         <div>
-          <p class="eyebrow" data-reveal>04 — About</p>
-          <h2 class="h-section" data-reveal style="--delay:60ms">Short version</h2>
+          <p class="eyebrow" data-reveal>04 / About</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Background</h2>
         </div>
       </div>
 
       <div class="about">
         <div class="about__copy" data-reveal>
-          <p>I spent three years at <strong>Cognizant</strong> on insurance systems where every payload carried PII and every release had a European operations team downstream of it. That is where I learned that the interesting engineering is usually in the constraints — regulated data, high volume, and no acceptable downtime window.</p>
-          <p>I am now a <strong>Research Assistant at Georgia State University</strong>, finishing an MS in Computer Science. The work has shifted toward applied ML that has to run somewhere small: a <strong>TensorFlow Lite</strong> classifier on an iPad that answers within the frame, <strong>MobileBERT</strong> semantic search inside a 4GB CPU-only budget, agents whose decisions are typed and checkpointed rather than hoped for.</p>
-          <p>The through-line is the same either way — <strong>build the thing so it holds up when it is not being watched.</strong></p>
+          <p>I spent three years at <strong>Cognizant</strong> on insurance systems where every payload carried PII and every release had a European operations team downstream of it. Regulated data, high volume and no acceptable downtime window shaped most of the engineering decisions I made there.</p>
+          <p>I am now a <strong>Research Assistant at Georgia State University</strong>, finishing an MS in Computer Science. The work has shifted toward applied ML that has to run on constrained hardware: a <strong>TensorFlow Lite</strong> classifier on an iPad that responds within the frame, <strong>MobileBERT</strong> semantic search inside a 4GB CPU-only budget, and agents whose decisions are typed and checkpointed.</p>
+          <p>I am most interested in backend work where correctness and latency both matter, and in getting machine learning to run reliably outside a datacentre.</p>
         </div>
 
         <dl class="facts" data-reveal style="--delay:100ms">
           <div class="fact"><dt>Based</dt><dd>Atlanta, Georgia</dd></div>
-          <div class="fact"><dt>Studying</dt><dd>MS Computer Science, Georgia State University &middot; Jan 2025 — May 2027</dd></div>
+          <div class="fact"><dt>Studying</dt><dd>MS Computer Science, Georgia State University &middot; Jan 2025 – May 2027</dd></div>
           <div class="fact"><dt>Focus</dt><dd>Backend services, distributed systems, on-device ML</dd></div>
           <div class="fact"><dt>Email</dt><dd><a href="mailto:sunnyesakethreddy@gmail.com">sunnyesakethreddy@gmail.com</a></dd></div>
           <div class="fact"><dt>GitHub</dt><dd><a href="https://github.com/SakethReddy3549" target="_blank" rel="noopener noreferrer">SakethReddy3549</a></dd></div>
@@ -555,8 +555,8 @@
   <!-- ======================================================= CONTACT -->
   <section class="section" id="contact">
     <div class="wrap">
-      <p class="eyebrow" data-reveal>05 — Contact</p>
-      <h2 class="h-section" data-reveal style="--delay:60ms; margin-bottom: 2rem;">Let's build something that holds.</h2>
+      <p class="eyebrow" data-reveal>05 / Contact</p>
+      <h2 class="h-section" data-reveal style="--delay:60ms; margin-bottom: 2rem;">Get in touch.</h2>
 
       <a class="contact__mail" href="mailto:sunnyesakethreddy@gmail.com" data-reveal style="--delay:120ms">sunnyesakethreddy@gmail.com</a>
 
@@ -573,7 +573,7 @@
 <footer class="footer">
   <div class="wrap footer__inner">
     <p>&copy; <span id="year">2026</span> Saketh Reddy Manda</p>
-    <p>Hand-built &mdash; no frameworks, no build step</p>
+    <p>Built without frameworks or a build step</p>
     <p><a href="#top">Back to top &uarr;</a></p>
   </div>
 </footer>

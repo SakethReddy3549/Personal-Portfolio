@@ -390,9 +390,9 @@ section[id], main[id] { scroll-margin-top: 84px; }
   position: relative;
   min-height: 100svh;
   display: flex;
-  align-items: flex-end;
-  padding-top: 8rem;
-  padding-bottom: 0;
+  align-items: center;
+  padding-top: clamp(6rem, 11vh, 7.5rem);
+  padding-bottom: clamp(5rem, 10vh, 7rem);
   overflow: hidden;
   border-top: 0;
 }
@@ -417,7 +417,7 @@ section[id], main[id] { scroll-margin-top: 84px; }
 }
 .hero .wrap { position: relative; z-index: 1; width: 100%; }
 
-.hero__body { padding-bottom: clamp(3rem, 8vh, 5.5rem); }
+.hero__body { padding-bottom: 0; }
 
 .hero h1 { margin-bottom: 1.75rem; max-width: 16ch; }
 .hero h1 .line { display: block; }
@@ -564,14 +564,18 @@ section[id], main[id] { scroll-margin-top: 84px; }
 .rail-btn:disabled { opacity: 0.28; cursor: default; }
 .rail-btn svg { width: 15px; height: 15px; }
 
-.rail-shell { position: relative; margin-inline: calc(var(--gutter) * -1); }
+.rail-shell { position: relative; }
 .rail {
+  /* match the inner left edge of .wrap so card 01 lines up with the heading,
+     while the rail itself still scrolls the full width of the viewport */
+  --rail-pad: max(var(--gutter), calc((100% - var(--maxw)) / 2 + var(--gutter)));
+
   display: flex;
   gap: 1rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scroll-padding-inline: var(--gutter);
-  padding: 0.75rem var(--gutter) 2rem;
+  scroll-padding-inline: var(--rail-pad);
+  padding: 0.75rem var(--rail-pad) 2rem;
   scrollbar-width: none;
 }
 .rail::-webkit-scrollbar { display: none; }
