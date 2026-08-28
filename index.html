@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saketh Reddy Manda — Software Engineer</title>
+<meta name="description" content="Software Engineer in Atlanta. Backend services in Java, Spring Boot and FastAPI; applied and on-device machine learning. Research Assistant at Georgia State University.">
+<meta name="author" content="Saketh Reddy Manda">
+<meta name="theme-color" content="#050506">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Saketh Reddy Manda — Software Engineer">
+<meta property="og:description" content="Backend services in Java, Spring Boot and FastAPI; applied and on-device machine learning.">
+<meta name="twitter:card" content="summary">
+
+<!-- resolve the theme before first paint so there is no flash of the wrong one -->
+<script>
+(function () {
+  try {
+    var stored = localStorage.getItem('theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', theme);
+  } catch (e) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============================================================ NAV -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Saketh Reddy Manda — home">
+    <span class="mark" aria-hidden="true">SM</span>
+    <span class="nav__name">Saketh Reddy Manda</span>
+  </a>
+
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#stack">Stack</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div class="nav__cta">
+    <button class="toggle" id="themeToggle" type="button" role="switch" aria-checked="false"
+            aria-label="Switch to light theme">
+      <span class="toggle__track">
+        <svg class="toggle__ico toggle__ico--moon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M13.4 9.6A5.9 5.9 0 0 1 6.4 2.6a5.9 5.9 0 1 0 7 7Z"
+                fill="currentColor"/>
+        </svg>
+        <svg class="toggle__ico toggle__ico--sun" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <circle cx="8" cy="8" r="3.1" fill="currentColor"/>
+          <g stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+            <path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1"/>
+          </g>
+        </svg>
+        <span class="toggle__knob" aria-hidden="true"></span>
+      </span>
+    </button>
+    <a class="btn btn--sm btn--primary" href="mailto:sunnyesakethreddy@gmail.com">Get in touch</a>
+    <button class="burger" type="button" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <a href="#work">Work</a>
+  <a href="#experience">Experience</a>
+  <a href="#stack">Stack</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="main">
+
+  <!-- ========================================================== HERO -->
+  <section class="section hero" id="top">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__vignette" aria-hidden="true"></div>
+
+    <div class="wrap">
+      <div class="hero__body">
+        <p class="eyebrow" data-reveal>Software Engineer — Atlanta, GA</p>
+
+        <h1 class="h-display" data-reveal style="--delay:80ms">
+          <span class="line">Backend that holds.</span>
+          <span class="line muted">ML that runs on-device.</span>
+        </h1>
+
+        <p class="lede" data-reveal style="--delay:160ms">
+          Three years shipping Java and Spring Boot services inside a PII-regulated insurance
+          platform. Now building FastAPI systems, real-time agents and on-device machine learning
+          as a Research Assistant at Georgia State University.
+        </p>
+
+        <div class="hero__meta" data-reveal style="--delay:240ms">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Atlanta, GA</span>
+          <span class="sep" aria-hidden="true">—</span>
+          <span>MS Computer Science, Georgia State &middot; 2027</span>
+          <span class="sep" aria-hidden="true">—</span>
+          <span>3+ years experience</span>
+        </div>
+
+        <div class="hero__actions" data-reveal style="--delay:320ms">
+          <a class="btn btn--accent" href="#work">
+            View selected work
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="mailto:sunnyesakethreddy@gmail.com">Email</a>
+          <a class="btn btn--ghost" href="https://github.com/SakethReddy3549" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn--ghost" href="https://linkedin.com/in/saketh-reddy-16776916a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cue" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="cue__rail"></span>
+    </div>
+  </section>
+
+  <!-- ======================================================== TICKER -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <div class="ticker__set">
+        <span>Java</span><span>Spring Boot</span><span>FastAPI</span><span>REST APIs</span>
+        <span>Microservices</span><span>AWS Lambda</span><span>DynamoDB</span><span>Apache Kafka</span>
+        <span>PostgreSQL</span><span>Redis</span><span>Docker</span><span>LangGraph</span>
+        <span>TensorFlow Lite</span><span>PyTorch</span><span>React</span><span>Kotlin</span>
+        <span>SwiftUI</span><span>WebSockets</span>
+      </div>
+      <div class="ticker__set">
+        <span>Java</span><span>Spring Boot</span><span>FastAPI</span><span>REST APIs</span>
+        <span>Microservices</span><span>AWS Lambda</span><span>DynamoDB</span><span>Apache Kafka</span>
+        <span>PostgreSQL</span><span>Redis</span><span>Docker</span><span>LangGraph</span>
+        <span>TensorFlow Lite</span><span>PyTorch</span><span>React</span><span>Kotlin</span>
+        <span>SwiftUI</span><span>WebSockets</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================= METRICS -->
+  <section class="section" style="padding-block: clamp(3rem, 7vh, 5rem);">
+    <div class="wrap">
+      <div class="metrics" data-reveal>
+        <div class="metric">
+          <p class="metric__val">3<em>+</em></p>
+          <p class="metric__key">Years building production backend services</p>
+        </div>
+        <div class="metric">
+          <p class="metric__val">50<em>+</em></p>
+          <p class="metric__key">APIs migrated to Apigee X with zero service disruption</p>
+        </div>
+        <div class="metric">
+          <p class="metric__val"><em>~</em>30%</p>
+          <p class="metric__key">Response time cut on customer-facing insurance APIs</p>
+        </div>
+        <div class="metric">
+          <p class="metric__val"><em>~</em>60%</p>
+          <p class="metric__key">Deployment time removed by replatforming onto AWS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-reveal>01 — Selected work</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Systems I designed and shipped</h2>
+        </div>
+        <div class="rail-head" data-reveal style="--delay:120ms">
+          <button class="rail-btn" type="button" id="railPrev" aria-label="Scroll work backward">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="rail-btn" type="button" id="railNext" aria-label="Scroll work forward">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="rail-shell">
+      <div class="rail" id="rail" tabindex="0" role="region" aria-label="Selected work, horizontally scrollable">
+
+        <!-- 01 -->
+        <article class="card" style="--tint: 229 38 28">
+          <span class="card__tag">Research</span>
+          <span class="card__num" aria-hidden="true">01</span>
+          <h3 class="card__title"><button class="card__link" type="button">Course Assistant Agent</button></h3>
+          <p class="card__desc">An EdTech teaching-assistant chatbot with a LangGraph state machine behind it — structured-output routing, checkpointed sessions students can resume.</p>
+          <ul class="chips">
+            <li class="chip">FastAPI</li><li class="chip">LangGraph</li><li class="chip">React</li><li class="chip">WebSockets</li>
+          </ul>
+          <span class="card__more" aria-hidden="true">View detail
+            <svg viewBox="0 0 16 16" fill="none" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <template data-detail>
+            <div class="detail__meta">
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+            </div>
+            <p class="detail__lede">A teaching assistant students talk to during a course. The hard part was not the model — it was making multi-turn sessions survive disconnects and keeping the agent's routing decisions predictable enough to debug.</p>
+            <div data-detail-body>
+              <p class="detail__label">What I built</p>
+              <ul class="detail__list">
+                <li>A <strong>LangGraph StateGraph agent</strong> with structured-output routing, so each turn resolves to a typed decision instead of free-form text the backend has to guess at.</li>
+                <li><strong>SQLite checkpointing</strong> of graph state, making multi-turn sessions resumable across reconnects and restarts.</li>
+                <li>A <strong>FastAPI</strong> backend exposing both REST endpoints and a <strong>WebSocket</strong> channel for streamed, low-latency responses.</li>
+                <li>A <strong>React</strong> front end for the live conversation surface.</li>
+              </ul>
+              <p class="detail__label">Stack</p>
+              <ul class="chips">
+                <li class="chip">FastAPI</li><li class="chip">Python</li><li class="chip">LangGraph</li><li class="chip">LangChain</li>
+                <li class="chip">React</li><li class="chip">WebSockets</li><li class="chip">SQLite</li><li class="chip">Pydantic</li>
+              </ul>
+            </div>
+          </template>
+        </article>
+
+        <!-- 02 -->
+        <article class="card" style="--tint: 90 120 190">
+          <span class="card__tag">Research</span>
+          <span class="card__num" aria-hidden="true">02</span>
+          <h3 class="card__title"><button class="card__link" type="button">Stroke Rehabilitation Trainer</button></h3>
+          <p class="card__desc">An iPad app that tracks 21 hand landmarks in real time and turns rehabilitation exercises into MIDI-driven audio feedback.</p>
+          <ul class="chips">
+            <li class="chip">SwiftUI</li><li class="chip">TF Lite</li><li class="chip">Apple Vision</li><li class="chip">AudioKit</li>
+          </ul>
+          <span class="card__more" aria-hidden="true">View detail
+            <svg viewBox="0 0 16 16" fill="none" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <template data-detail>
+            <div class="detail__meta">
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+            </div>
+            <p class="detail__lede">Stroke rehabilitation depends on repetition, and repetition depends on feedback that arrives instantly. This app reads the patient's hand from the iPad camera and answers with sound in the same frame.</p>
+            <div data-detail-body>
+              <p class="detail__label">What I built</p>
+              <ul class="detail__list">
+                <li>Real-time <strong>hand-pose tracking across 21 landmarks</strong>, driven by <strong>Apple Vision</strong> and <strong>AVFoundation</strong> on the device camera pipeline.</li>
+                <li>A <strong>confidence-gated TensorFlow Lite classifier</strong> — poses below threshold are withheld rather than guessed, so the patient never gets rewarded for a wrong movement.</li>
+                <li><strong>55+ MIDI-driven exercises</strong> wired through <strong>AudioKit</strong>, mapping recognised gestures to immediate audio response.</li>
+                <li>A <strong>SwiftUI</strong> interface designed for clinical use rather than demo use.</li>
+              </ul>
+              <p class="detail__label">Stack</p>
+              <ul class="chips">
+                <li class="chip">Swift</li><li class="chip">SwiftUI</li><li class="chip">TensorFlow Lite</li><li class="chip">Apple Vision</li>
+                <li class="chip">AVFoundation</li><li class="chip">AudioKit</li><li class="chip">MIDI</li>
+              </ul>
+            </div>
+          </template>
+        </article>
+
+        <!-- 03 -->
+        <article class="card" style="--tint: 200 140 50">
+          <span class="card__tag">Research</span>
+          <span class="card__num" aria-hidden="true">03</span>
+          <h3 class="card__title"><button class="card__link" type="button">Wearable Hub</button></h3>
+          <p class="card__desc">Android app for wearable IMU sensing that runs entirely on-device — including MobileBERT semantic search on a 4GB CPU-only phone. No cloud, anywhere.</p>
+          <ul class="chips">
+            <li class="chip">Kotlin</li><li class="chip">Compose</li><li class="chip">MobileBERT</li><li class="chip">On-device</li>
+          </ul>
+          <span class="card__more" aria-hidden="true">View detail
+            <svg viewBox="0 0 16 16" fill="none" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <template data-detail>
+            <div class="detail__meta">
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+            </div>
+            <p class="detail__lede">Sensor data from a body-worn device is about as private as data gets. The constraint driving this build was simple: nothing leaves the phone — which meant the model had to fit and run on a 4GB CPU-only device.</p>
+            <div data-detail-body>
+              <p class="detail__label">What I built</p>
+              <ul class="detail__list">
+                <li>An <strong>on-device Android app</strong> in <strong>Kotlin and Jetpack Compose</strong> for wearable IMU sensing, with <strong>no cloud dependency</strong> in the data path.</li>
+                <li><strong>MobileBERT (TFLite)</strong> semantic search running inside a <strong>4GB CPU-only</strong> budget — quantised inference tuned to stay responsive without a GPU.</li>
+                <li>Local capture, storage and query of sensor streams, so the device stays useful with no network at all.</li>
+              </ul>
+              <p class="detail__label">Stack</p>
+              <ul class="chips">
+                <li class="chip">Kotlin</li><li class="chip">Jetpack Compose</li><li class="chip">TensorFlow Lite</li>
+                <li class="chip">MobileBERT</li><li class="chip">Android</li><li class="chip">IMU sensing</li>
+              </ul>
+            </div>
+          </template>
+        </article>
+
+        <!-- 04 -->
+        <article class="card" style="--tint: 229 38 28">
+          <span class="card__tag">Research</span>
+          <span class="card__num" aria-hidden="true">04</span>
+          <h3 class="card__title"><button class="card__link" type="button">Semantic Sensor Search</button></h3>
+          <p class="card__desc">A three-layer retrieval pipeline over JSON-LD sensor metadata, plus a schema-validated executor that turns plain-English plans into sandboxed workflows.</p>
+          <ul class="chips">
+            <li class="chip">Python</li><li class="chip">JSON-LD</li><li class="chip">Embeddings</li><li class="chip">Pydantic</li>
+          </ul>
+          <span class="card__more" aria-hidden="true">View detail
+            <svg viewBox="0 0 16 16" fill="none" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <template data-detail>
+            <div class="detail__meta">
+              <span>Georgia State University</span><span>Research Assistant</span><span>2025 — Present</span>
+            </div>
+            <p class="detail__lede">Letting a language model describe a workflow is easy. Letting it <em>run</em> one safely is the actual problem — so every plan the model produces is validated against a schema before anything executes.</p>
+            <div data-detail-body>
+              <p class="detail__label">What I built</p>
+              <ul class="detail__list">
+                <li>A <strong>three-layer semantic search pipeline</strong> — ranking, intent matching and cosine-similarity retrieval — over <strong>JSON-LD sensor metadata</strong>.</li>
+                <li>A <strong>schema-validated natural-language plan executor</strong>: generated plans must satisfy a strict contract before any step is allowed to run.</li>
+                <li><strong>Sandboxed workflow automation</strong>, so an invalid or unexpected plan fails closed instead of touching live systems.</li>
+              </ul>
+              <p class="detail__label">Stack</p>
+              <ul class="chips">
+                <li class="chip">Python</li><li class="chip">JSON-LD</li><li class="chip">Cosine similarity</li>
+                <li class="chip">Pydantic</li><li class="chip">LangChain</li><li class="chip">Vector search</li>
+              </ul>
+            </div>
+          </template>
+        </article>
+
+        <!-- 05 -->
+        <article class="card" style="--tint: 90 120 190">
+          <span class="card__tag">Industry</span>
+          <span class="card__num" aria-hidden="true">05</span>
+          <h3 class="card__title"><button class="card__link" type="button">Apigee X Gateway Migration</button></h3>
+          <p class="card__desc">Moved 50+ production APIs from Apigee to Apigee X across European insurance operations — with zero service disruption.</p>
+          <ul class="chips">
+            <li class="chip">Apigee X</li><li class="chip">CI/CD</li><li class="chip">Java</li><li class="chip">Spring Boot</li>
+          </ul>
+          <span class="card__more" aria-hidden="true">View detail
+            <svg viewBox="0 0 16 16" fill="none" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <template data-detail>
+            <div class="detail__meta">
+              <span>Cognizant Technology Solutions</span><span>Software Engineer</span><span>2021 — 2024</span>
+            </div>
+            <p class="detail__lede">A gateway migration nobody is supposed to notice. High-volume European insurance traffic, PII in every payload, and no acceptable window for downtime.</p>
+            <div data-detail-body>
+              <p class="detail__label">What I did</p>
+              <ul class="detail__list">
+                <li>Contributed to migrating <strong>50+ APIs from Apigee to Apigee X</strong> with <strong>zero service disruption</strong>.</li>
+                <li>Improved <strong>API gateway configuration</strong> and tightened <strong>CI/CD</strong> so deployments landed consistently across environments.</li>
+                <li>Reduced average response time by <strong>~30%</strong> on customer-facing insurance APIs by reworking service logic and SQL query paths under high-volume load.</li>
+                <li>Applied <strong>access control and audit trails</strong> across PII workflows in a regulated environment.</li>
+              </ul>
+              <p class="detail__label">Stack</p>
+              <ul class="chips">
+                <li class="chip">Apigee X</li><li class="chip">Java</li><li class="chip">Spring Boot</li>
+                <li class="chip">REST</li><li class="chip">SQL</li><li class="chip">CI/CD</li><li class="chip">GitHub Actions</li>
+              </ul>
+            </div>
+          </template>
+        </article>
+
+        <!-- 06 -->
+        <article class="card" style="--tint: 200 140 50">
+          <span class="card__tag">Industry</span>
+          <span class="card__num" aria-hidden="true">06</span>
+          <h3 class="card__title"><button class="card__link" type="button">Legacy Modules to AWS</button></h3>
+          <p class="card__desc">Replatformed legacy insurance modules onto Lambda, S3 and DynamoDB — cutting deployment time ~60% and deleting the manual release steps entirely.</p>
+          <ul class="chips">
+            <li class="chip">AWS Lambda</li><li class="chip">DynamoDB</li><li class="chip">S3</li><li class="chip">Kafka</li>
+          </ul>
+          <span class="card__more" aria-hidden="true">View detail
+            <svg viewBox="0 0 16 16" fill="none" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <template data-detail>
+            <div class="detail__meta">
+              <span>Cognizant Technology Solutions</span><span>Software Engineer</span><span>2021 — 2024</span>
+            </div>
+            <p class="detail__lede">Legacy insurance modules with a release process that ran on human attention. The rewrite target was not just "on AWS" — it was "deployable without anyone remembering a checklist".</p>
+            <div data-detail-body>
+              <p class="detail__label">What I did</p>
+              <ul class="detail__list">
+                <li>Replatformed <strong>3+ legacy insurance modules</strong> to <strong>AWS Lambda, S3 and DynamoDB</strong>, cutting deployment time by <strong>~60%</strong> and removing manual release steps.</li>
+                <li>Built and maintained <strong>6+ Java/Spring Boot REST APIs</strong> across 3 internal platforms moving customer and policy data.</li>
+                <li>Implemented <strong>5+ API, batch and event-driven (Kafka) integration flows</strong> synchronising regional insurance data into downstream reporting pipelines.</li>
+                <li>Delivered across <strong>20+ biweekly Agile release cycles</strong> on an 8–10 person team spanning engineering, QA and business stakeholders.</li>
+              </ul>
+              <p class="detail__label">Stack</p>
+              <ul class="chips">
+                <li class="chip">AWS Lambda</li><li class="chip">Amazon S3</li><li class="chip">DynamoDB</li><li class="chip">API Gateway</li>
+                <li class="chip">Apache Kafka</li><li class="chip">Java</li><li class="chip">Spring Boot</li><li class="chip">Docker</li>
+              </ul>
+            </div>
+          </template>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="wrap">
+      <p class="rail-hint" data-reveal>Drag, scroll or use the arrows — select any card for detail</p>
+    </div>
+  </section>
+
+  <!-- ==================================================== EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-reveal>02 — Experience</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Where the work happened</h2>
+        </div>
+      </div>
+
+      <ol class="xp">
+        <li class="xp__item" data-reveal>
+          <div class="xp__aside">
+            <span class="xp__when">Aug 2025 — Present</span>
+            <span class="xp__where">Atlanta, GA</span>
+          </div>
+          <div>
+            <h3 class="xp__role">Research Assistant</h3>
+            <p class="xp__org">Georgia State University</p>
+            <ul class="xp__points">
+              <li>Built an EdTech teaching-assistant chatbot with <strong>FastAPI, React, REST APIs and WebSockets</strong>; architected a <strong>LangGraph StateGraph agent</strong> with structured-output routing and <strong>SQLite checkpointing</strong> for resumable multi-turn sessions.</li>
+              <li>Designed real-time hand-pose tracking across <strong>21 landmarks</strong> for an iPad stroke-rehabilitation app using a confidence-gated <strong>TensorFlow Lite</strong> classifier with <strong>SwiftUI, AVFoundation, Apple Vision and AudioKit</strong> across <strong>55+ MIDI-driven exercises</strong>.</li>
+              <li>Built <strong>Wearable Hub</strong>, an on-device Android app (<strong>Kotlin, Jetpack Compose</strong>) for wearable IMU sensing with no cloud dependency, including <strong>MobileBERT (TFLite)</strong> semantic search on a <strong>4GB CPU-only</strong> device.</li>
+              <li>Engineered a <strong>three-layer semantic search pipeline</strong> (ranking, intent matching, cosine-similarity retrieval) over JSON-LD sensor metadata, with a schema-validated <strong>natural-language plan executor</strong> for sandboxed workflow automation.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="xp__item" data-reveal>
+          <div class="xp__aside">
+            <span class="xp__when">Sep 2021 — Apr 2024</span>
+            <span class="xp__where">Software Engineer</span>
+          </div>
+          <div>
+            <h3 class="xp__role">Software Engineer</h3>
+            <p class="xp__org">Cognizant Technology Solutions</p>
+            <ul class="xp__points">
+              <li>Built and maintained <strong>6+ Java/Spring Boot REST APIs</strong> across 3 internal platforms, moving customer and policy data in a <strong>PII-regulated</strong> insurance environment.</li>
+              <li>Reduced average response time by <strong>~30%</strong> on customer-facing insurance APIs by optimising service logic and SQL/database query paths for high-volume European operations.</li>
+              <li>Contributed to migrating <strong>50+ APIs from Apigee to Apigee X</strong>, improving gateway configuration, CI/CD and deployment consistency with <strong>zero service disruption</strong>.</li>
+              <li>Replatformed <strong>3+ legacy insurance modules</strong> to <strong>AWS (Lambda, S3, DynamoDB)</strong>, cutting deployment time by <strong>~60%</strong> and removing manual release steps.</li>
+              <li>Implemented <strong>5+ API, batch and event-driven (Kafka)</strong> integration flows synchronising regional insurance data with downstream reporting pipelines.</li>
+              <li>Delivered across <strong>20+ biweekly Agile release cycles</strong> on an 8–10 person team spanning engineering, QA and business stakeholders; applied access control and audit trails for PII workflows.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========================================================= STACK -->
+  <section class="section" id="stack">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-reveal>03 — Stack</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Tools I reach for</h2>
+        </div>
+      </div>
+
+      <div class="stack" data-reveal>
+        <div class="stack__group">
+          <h3 class="stack__title"><i>01</i> Languages</h3>
+          <ul class="stack__items">
+            <li>Java</li><li>Python</li><li>C++</li><li>C#</li><li>SQL</li><li>JavaScript</li>
+            <li>TypeScript</li><li>Swift</li><li>Kotlin</li><li>Bash</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__title"><i>02</i> Backend &amp; Cloud</h3>
+          <ul class="stack__items">
+            <li>Spring Boot</li><li>FastAPI</li><li>Node.js</li><li>REST APIs</li><li>WebSockets</li>
+            <li>Microservices</li><li>Distributed Systems</li><li>Apache Kafka</li><li>AWS Lambda</li>
+            <li>Amazon S3</li><li>API Gateway</li><li>DynamoDB</li><li>Apigee</li><li>Docker</li>
+            <li>CI/CD</li><li>GitHub Actions</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__title"><i>03</i> AI &amp; ML</h3>
+          <ul class="stack__items">
+            <li>TensorFlow</li><li>TensorFlow Lite</li><li>PyTorch</li><li>CUDA</li><li>LangChain</li>
+            <li>LangGraph</li><li>LangSmith</li><li>OpenAI API</li><li>LSTM</li><li>GRU</li><li>Pydantic</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__title"><i>04</i> Frontend &amp; Mobile</h3>
+          <ul class="stack__items">
+            <li>React</li><li>Next.js</li><li>HTML5</li><li>CSS</li><li>Tailwind CSS</li>
+            <li>SwiftUI</li><li>Jetpack Compose</li><li>AVFoundation</li><li>Apple Vision</li><li>AudioKit</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__title"><i>05</i> Datastores</h3>
+          <ul class="stack__items">
+            <li>PostgreSQL</li><li>MySQL</li><li>DynamoDB</li><li>Redis</li><li>SQLite</li>
+            <li>ChromaDB</li><li>Pinecone</li><li>NoSQL</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__title"><i>06</i> Foundations</h3>
+          <ul class="stack__items">
+            <li>Object-Oriented Design</li><li>Data Structures</li><li>Algorithms</li>
+            <li>Distributed Systems</li><li>SDLC</li><li>Agile</li><li>Git</li><li>Linux</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-reveal>04 — About</p>
+          <h2 class="h-section" data-reveal style="--delay:60ms">Short version</h2>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="about__copy" data-reveal>
+          <p>I spent three years at <strong>Cognizant</strong> on insurance systems where every payload carried PII and every release had a European operations team downstream of it. That is where I learned that the interesting engineering is usually in the constraints — regulated data, high volume, and no acceptable downtime window.</p>
+          <p>I am now a <strong>Research Assistant at Georgia State University</strong>, finishing an MS in Computer Science. The work has shifted toward applied ML that has to run somewhere small: a <strong>TensorFlow Lite</strong> classifier on an iPad that answers within the frame, <strong>MobileBERT</strong> semantic search inside a 4GB CPU-only budget, agents whose decisions are typed and checkpointed rather than hoped for.</p>
+          <p>The through-line is the same either way — <strong>build the thing so it holds up when it is not being watched.</strong></p>
+        </div>
+
+        <dl class="facts" data-reveal style="--delay:100ms">
+          <div class="fact"><dt>Based</dt><dd>Atlanta, Georgia</dd></div>
+          <div class="fact"><dt>Studying</dt><dd>MS Computer Science, Georgia State University &middot; Jan 2025 — May 2027</dd></div>
+          <div class="fact"><dt>Focus</dt><dd>Backend services, distributed systems, on-device ML</dd></div>
+          <div class="fact"><dt>Email</dt><dd><a href="mailto:sunnyesakethreddy@gmail.com">sunnyesakethreddy@gmail.com</a></dd></div>
+          <div class="fact"><dt>GitHub</dt><dd><a href="https://github.com/SakethReddy3549" target="_blank" rel="noopener noreferrer">SakethReddy3549</a></dd></div>
+          <div class="fact"><dt>LinkedIn</dt><dd><a href="https://linkedin.com/in/saketh-reddy-16776916a" target="_blank" rel="noopener noreferrer">saketh-reddy</a></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>05 — Contact</p>
+      <h2 class="h-section" data-reveal style="--delay:60ms; margin-bottom: 2rem;">Let's build something that holds.</h2>
+
+      <a class="contact__mail" href="mailto:sunnyesakethreddy@gmail.com" data-reveal style="--delay:120ms">sunnyesakethreddy@gmail.com</a>
+
+      <div class="contact__links" data-reveal style="--delay:180ms">
+        <a class="btn btn--ghost" href="tel:+14045033584">404-503-3584</a>
+        <a class="btn btn--ghost" href="https://github.com/SakethReddy3549" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn btn--ghost" href="https://linkedin.com/in/saketh-reddy-16776916a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>&copy; <span id="year">2026</span> Saketh Reddy Manda</p>
+    <p>Hand-built &mdash; no frameworks, no build step</p>
+    <p><a href="#top">Back to top &uarr;</a></p>
+  </div>
+</footer>
+
+<!-- ==================================================== PROJECT MODAL -->
+<dialog class="modal" id="modal" aria-labelledby="modalTitle">
+  <button class="modal__close" type="button" id="modalClose" aria-label="Close">
+    <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+  </button>
+  <div class="modal__scroll">
+    <div class="modal__hero" id="modalHero">
+      <h2 class="detail__title" id="modalTitle"></h2>
+      <div id="modalMeta"></div>
+    </div>
+    <div class="modal__body" id="modalBody"></div>
+  </div>
+</dialog>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
